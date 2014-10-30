@@ -1,37 +1,45 @@
-#Lesson 1
+#leçon 1
 
 ##Introduction
-In this lesson, students will import the graphics required for the game. There is an assumption in these lessons that students are familiar with scratch and how to select code, create variables, and understand about broadcasting messages. If this is not the case then you could add in extra learning opportunities to cover these things.
 
-##Learning Objectives
-The objective of this lesson is to import graphics into the game and understand that sprites in Scratch can have different costumes to change appearance.
+Dans cette leçon, les étudiants vont importer les graphiques requis pour le jeu. Les prérequis pour cette leçon sont de connaître scratch et de savoir comment sélectionner du code, créer des variables, et de comprendre comment fonctionnent les messages à tous. Si ce n'est pas le cas, alors vous devriez ajouter d'autres leçons pour découvrir ces notions.
 
-##Learning Outcomes
+##Objectifs d'apprentissage
 
-####All students are able to
-Import graphics into Scratch ready to code Fla-Pi Bird.
+L'objectif de cette leçon est d'importer les graphiques dans le jeu et de comprendre que les sprites dans Scratch peuvent avoir différents costumes pour changer d'apparence.
 
-##Lesson Summary
-The lesson will begin with a small discussion on copyright and plagiarism to ensure students understand the importance of crediting original sources when using it for their own purposes. Students will then begin to code a game in Scratch. The code illustrated in this lesson will allow students to successfully get sprites moving on the screen in the direction they need them to in order to fulfil the game.
-##Starter
-Place the word copyright on the board to provoke a discussion on what copyright is and what the implications of it are. You could then explain that cloning games has become commonplace due to the intricate nature of software law. You only need to look on the appstore for many different versions of seemingly the same game. Highlight that we are going to clone a well-known game, however students should be aware of the laws around copyright and the consequences of plagiarising someone else’s work and simply passing it off as their creation. The original Flappy Bird game was written by Dong Nguyen and credit must go to him for providing the inspiration and motivation to reproduce a working clone to get students thinking computationally.
-##Main Development
-* Students will begin by opening Scratch and deleting the cat sprite by right clicking on it and choosing delete.
-* They will then choose new sprite and import both costumes for the Fla-Pi Bird. These can be found below:  
-* Here is how to import graphics:  
+##Acquis en fin de leçon
+
+Tous les étudiants sont capables d'importer des graphiques dans Scratch et sont prêts à coder le jeu
+
+##Résumé de la leçon
+The leçon will begin with a small discussion on copyright and plagiarism to ensure students understand the importance of crediting original sources when using it for their own purposes. Students will then begin to code a game in Scratch. The code illustrated in this leçon will allow students to successfully get sprites moving on the screen in the direction they need them to in order to fulfil the game.
+La leçon commence avec une discussion sur le copyright et le plagiat pour s'assurer que les étudiants comprennent bien l'importance de référencer ses sources lorsqu'on les utilise pour ses propres créations. Les étudiants vont alors commencer à coder le jeu dans Scratch. Le code illustré dans cette leçon va permettre aux étudiants de faire bouger les sprites à l'écran dans la direction souhaitée.
+
+##Début
+Placer le mot Copyright sur le tableau pour provoquer une discussion à propos du copyright et de ses implications. On pourra alors expliquer que cloner des jeux est devenu une pratique courante due aux lois complexes protégeant les logiciels. Voir dans l'appstore le nombre de copies des jeux qui marchent. Nous allons également cloner un jeu célèbre, mais les étudiants doivent être conscients des lois autour du copyright et des conséquences de plagier le travail d'un autre et le faire passer pour le sien. Le jeu original Flappy Bird a été ecris par Dong Nguyen et les crédits doivent lui revenir pour avoir fourni l'inspiration et la motivation de créer un clone de son jeu pour apprendre aux élèves la programmation.
+
+##Développement principal
+*Les étudiants commencent par ouvrir Scratch et suppriumer le chat en faisant un click-droit dessus et en sélectionnant 'supprimer'.
+
+*Ils vont alors choisir un nouveau sprite et importer les costumes pour l'oiseau Fla-pi. Les voici :
+
+
+* voici comment importer les graphiques :
 ![Imprt Graphic](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Screenshots/Import%20Graphic%20Screen%20Shot.fw.png?raw=true)  
   
 ![Flap-Pi Bird Costume 1](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Flappy.fw.png?raw=true)  
   
 ![Fla-Pi Bird Costume 2](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Flappy2.fw.png?raw=true)  
 
-* Students will then import the 3 different costumes from the stage in the same way, these can be found below:  
+* Les étudiants vont alors importer 3 costumes différents pour l'objet stage de la même manière :  
 
 ![Game Intro Screen](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Intro.png?raw=true)  
 ![Ready Screen](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Ready.fw.png?raw=true)  
 ![Game Background](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Background.png?raw=true)  
 
-* Next, the graphics for the pipes should be imported, there are nine of these, ensure students import all of these costumes for their pipe sprite.  
+ 
+* Ensuite, les graphiques pour les tuyaux doivent être importés, il y en a 9. Soyez sûr que les étudiants ont bien importé tous ces costumes pour le tuyau.
 
 ![Pipe 1](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Pipes/Pipe1.png?raw=true) Pipe 1  
 ![Pipe 2](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Pipes/Pipe2.png?raw=true) Pipe 2  
@@ -43,16 +51,19 @@ Place the word copyright on the board to provoke a discussion on what copyright 
 ![Pipe 8](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Pipes/Pipe8.png?raw=true) Pipe 8  
 ![Pipe 9](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/Pipes/Pipe9.png?raw=true) Pipe 9  
 
-* Finally, the 'Game Over' graphic should be imported.  
+* Enfin, le graphique du 'Game Over' va être importé à son tour
 ![Game Over](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Graphics/GameOver.fw.png?raw=true)  
 
-* Ok, so that’s the graphics in place, now we need to add some code to the individual elements so that they show at the right time at this very early stage of the game. At this stage, the bird and the pipe do not require any code, first we will look at the code to add to the Game Over sprite, make sure the game over sprite is selected:  
-![Game over code](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Code%20Blocks%20by%20Lesson/1%20Graphics/Game%20Over%20Code.JPG?raw=true)  
-The code above hides the game over graphic when the game starts, this graphic will be used later on and is displayed when a game ends.  
-* The code for the stage (background) now needs to be added. Here, the code switches to the game intro screen when the game starts. Then the game waits for the space key to be pressed to start the game, when pressed, the game waits 1 second, and then broadcasts a message called start, at this point the background is switched to the playing background. This concludes this lesson.  
-![Stage code](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Code%20Blocks%20by%20Lesson/1%20Graphics/Stage%20Code.JPG?raw=true)  
-* Students should save the file as Graphics.sb 
+* Ok, maintenant que les graphiques sont en place, nous allons ajouter le code aux éléments afin qu'ils soient visibles au bon moment dans le jeu. A ce stade, l'oiseau et les tuyaux ne demandent pas de code, nous allons d'abord nous occuper du sprite 'Game Over', sélectionnez-le tout d'abord :
+![Game over code](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Code%20Blocks%20by%20leçon/1%20Graphics/Game%20Over%20Code.JPG?raw=true)  
 
-##Plenary
-Students should be made aware once again of the importance of ethical responsibilities when writing software to avoid potential consequences.  
+Le code ci-dessus cache l'objet 'Game Over' quand le jeu commence. CE graphique sera utilisé plus tard et est affiché lorsque le jeu est fini.
+
+*Le code pour l'objet 'stage' (fond) doit maintenant être ajouté. Ici, le code remplace l'écran du fond lorsque le jeu démarre. Le jeu attend alors que la barre d'espacement soit pressée pour commencer, 1 seconde plus tard, et envoyer un message appelé start. Ensuite le fond est remplacé par le visuel servant de décor au jeu. Cela conclue cette leçon.
+![Stage code](https://github.com/AllenHeard/Fla-Pi-Bird/blob/master/Code%20Blocks%20by%20leçon/1%20Graphics/Stage%20Code.JPG?raw=true)  
+* Students should save the file as Graphics.sb 
+* Les étudiants devraient suvegarder leur travail maintenant
+
+##Synthèse en plénière
+  Les étudiants devraient être conscient de l'importance de la responsabilité éthique lorsqu'ils écrivent des logiciels pour éviter des conséquences possibles.
  
